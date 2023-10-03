@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #485B26;
+}
+a:hover{
+    transition: 0.3s;
+    color: #BCC9A5;
+}
+.container{
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+}
+nav a{
+    padding: 86px 0 86px 0;
+}
+
+.profile_user #profile_img{
+    font-size: 24px;
+    color: #485B26;
+    background-color: #BCC9A5;
+    border: none;
+    border-radius: 100%;
+    padding: 36px 5px;
+    text-align: center;
+    width: 100px;
+}
+.profile_user {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#favourit_profile p{
+    font-size: 24px;
+}
+
+#favourit_profile{ 
+    transition: 0.3s;
+    color: #485B26;
+    display: flex;
+    gap: 20px;
+    padding: 16px 54px;
+    border: none;
+    border-radius: 15px;
+    background-color: #BCC9A5;
+    cursor: pointer;
+    margin-left: 880px;
+}
+
+#favourit_profile:hover{
+    background-color: #485B26;
+    color: #BCC9A5;
+}
+
+#SName {
+    color: #BCC9A5;
+}
